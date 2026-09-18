@@ -13,7 +13,7 @@ int main() {
     printf("  --------        |       -------------------       |      --------        \n");
     printf("     _____        |                                 |         _____        \n");
     printf("    /     \\      |         -30  -15   0   15  30   |        /     \\      \n");
-    printf("   |  %04d |      |          |    |    |    |    |  |       |  %04d |      \n" vitesse, altitude);
+    printf("   |  %04d |      |          |    |    |    |    |  |       |  %04d |      \n", vitesse, altitude);
     printf("   |  kts  |      |    ------+----+----+----+----+  |       |   ft  |      \n");
     printf("    \\_____/      |         ^ (horizon plat)        |        \\_____/      \n");
     printf("\n");
